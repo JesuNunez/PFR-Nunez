@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar-search {
+  display: flex;
+}
+
+.navbar-search input {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.navbar-search button {
+  background-color: #555;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.navbar-search button:hover {
+  background-color: #777;
+}
+
+.navbar-cart {
+  position: relative;
+}
+
+.navbar-cart a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8rem;
+}

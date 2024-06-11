@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  background-image: url('https://s2.best-wallpaper.net/wallpaper/iphone/1808/Purple-style-texture-background-abstract_iphone_320x480.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.filter-buttons button {
+  font-family: 'PT Sans', sans-serif;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #fff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #333;
+}
+
+.filter-buttons button:focus {
+  outline: none;
+}
+
+.filter-buttons button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
