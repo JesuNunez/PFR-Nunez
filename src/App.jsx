@@ -20,18 +20,10 @@ const App = () => {
   const [cartItems, setCartItems] = useState([]);
   const [filter, setFilter] = useState('All');
   const [showFilters, setShowFilters] = useState(true);
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.pathname === '/') {
-      setShowFilters(true);
-    }
-  }, [location.pathname]);
 
   const clearCart = () => {
     setCartItems([]);
   };
-
 
   return (
     <Router>
